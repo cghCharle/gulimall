@@ -11,6 +11,7 @@
 
     <artifactId>gulimall-common</artifactId>
     <dependencies>
+
         <!--        mybatis-plus依赖-->
         <dependency>
             <groupId>com.baomidou</groupId>

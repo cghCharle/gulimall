@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="org.springframework.stereotype.Service" />
+    </list>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/gulimall-product/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-product/gulimall-ware/pom.xml" />
-        <option value="$PROJECT_DIR$/gulimall-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-coupon/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-order/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-ware/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-member/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-product/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-third-party/pom.xml" />
       </list>
     </option>
   </component>

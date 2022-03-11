@@ -22,7 +22,7 @@ import com.atguigu.common.utils.R;
  *
  * @author chenguanhua
  * @email 524558711@qq.com
- * @date 2022-02-15 15:21:54
+ * @date 2022-02-16 15:49:29
  */
 @RestController
 @RequestMapping("product/attrattrgrouprelation")
@@ -38,7 +38,7 @@ public class AttrAttrgroupRelationController {
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = attrAttrgroupRelationService.queryPage(params);
 
-        return R.ok().put("page", page);
+        return R.ok().put("data", page);
     }
 
 

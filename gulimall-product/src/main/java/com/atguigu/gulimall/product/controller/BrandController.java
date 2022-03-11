@@ -22,7 +22,7 @@ import com.atguigu.common.utils.R;
  *
  * @author chenguanhua
  * @email 524558711@qq.com
- * @date 2022-02-15 15:21:54
+ * @date 2022-02-16 15:49:30
  */
 @RestController
 @RequestMapping("product/brand")
@@ -70,8 +70,7 @@ public class BrandController {
     @RequestMapping("/update")
     //@RequiresPermissions("product:brand:update")
     public R update(@RequestBody BrandEntity brand){
-		brandService.updateById(brand);
-
+		brandService.updateDetails(brand);
         return R.ok();
     }
 

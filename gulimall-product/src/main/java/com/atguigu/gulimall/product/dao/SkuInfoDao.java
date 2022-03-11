@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Mapper;
  * 
  * @author chenguanhua
  * @email 524558711@qq.com
- * @date 2022-02-15 15:21:55
+ * @date 2022-02-16 15:49:29
  */
 @Mapper
 public interface SkuInfoDao extends BaseMapper<SkuInfoEntity> {
